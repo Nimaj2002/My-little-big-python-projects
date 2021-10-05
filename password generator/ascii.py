@@ -1,0 +1,5 @@
+from_explanation_to_forslash = range(33,48)    # !to/ = (33,47)
+numbers                      = range(48,58)    # 0to9 = (48,57)
+from_semicolon_to_adsighn    = range(58,65)    # :to@ = (58,64)
+from_A_to_Z                  = range(65,91)    # AtoZ = (65,90)
+from_a_to_z                  = range(97,123)   # atoz = (97,122)
