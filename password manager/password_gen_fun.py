@@ -28,7 +28,3 @@ def keygen(total_letter):
 
     return key
 
-
-print("Welcome to Python key Generator")
-total_letters = int(input("How many letters do you want to have in your password?:\t"))
-print(keygen(total_letters))
