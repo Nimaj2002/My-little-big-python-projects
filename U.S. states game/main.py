@@ -31,6 +31,7 @@ try:
                 y_cor = int(state_data.y)
                 states_answered += 1
                 writer_turtle.goto(x_cor, y_cor)
+                print(x_cor)
                 writer_turtle.write(f"{state}", font=("Times New Roman", 10, "normal"))
                 answered_list.append(state)
         if states_answered == 50:
