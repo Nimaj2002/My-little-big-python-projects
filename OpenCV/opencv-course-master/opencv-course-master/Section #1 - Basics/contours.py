@@ -22,7 +22,7 @@ cv.imshow('Canny Edges', canny)
 # cv.imshow('Thresh', thresh)
 
 contours, hierarchies = cv.findContours(canny, cv.RETR_LIST, cv.CHAIN_APPROX_SIMPLE)
-print(f'{len(contours)} contour(s) found!')
+print(f'{len(contours)}    contour(s) found!')
 
 cv.drawContours(blank, contours, -1, (0,0,255), 1)
 cv.imshow('Contours Drawn', blank)
